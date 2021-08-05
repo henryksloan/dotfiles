@@ -1,0 +1,22 @@
+[net]
+command=~/.config/i3/i3scripts/bandwidth
+interval=persist
+markup=pango
+
+[cpu]
+label=
+command=~/.config/i3/i3scripts/cpu_usage # /usr/libexec/i3blocks/cpu_usage
+interval=6
+
+[mem]
+label=
+command=~/.config/i3/i3scripts/memory
+interval=5
+
+[calendar]
+command=date +'%a, %b %d, %Y'
+interval=30
+
+[calendar]
+command=date +'%r   '
+interval=1
