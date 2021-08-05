@@ -1,11 +1,10 @@
 urxvt.scrollBar: false
 urxvt.font: xft:Cozette:size=10
-urxvt.perl-ext-common: keyboard-select
-URxvt.keyboard-select.clipboard: true
-urxvt.keysym.M-Escape: perl:keyboard-select:activate
+urxvt.perl-ext-common: default
 urxvt.keysym.Shift-Control-V: eval:paste_clipboard
 urxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 urxvt.iso14755: False
+URxvt.iso14755_52: false
 
 ! special
 *.foreground:   #c5c8c6
